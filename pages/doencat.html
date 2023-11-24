@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/doencast.css">
+    <link rel="stylesheet" href="../styles/mortalidadeinfantil.css">
+    <script src="../scripts/scriptMudaDoencaT.js" defer></script>
+    <link rel="shortcut icon" href="../assets/App-Icon.ico" type="image/x-icon">
+    <title>HapViva: Doenças Transmissíveis</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <img src="../assets/logo.png" alt="">
+            <ul class="navBarList">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="mortalidadeinfantil.html">Mortalidade Infantil</a></li>
+                <li><a style="border-bottom: 2px solid black;" href="doencat.html">Doenças transmissíveis</a></li>
+                <li><a href="doencant.html">Doenças não transmissíveis</a></li>
+                <li><a href="melhoriasaude.html">Melhoria Geral da Saúde</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="topoDoencasT">
+            <h1>Combate a doenças transmissíveis</h1>
+            <p>O combate a doenças transmissíveis é crucial para preservar a saúde global. A implementação de medidas preventivas, como
+            vacinação em massa e educação em saúde, desempenha um papel fundamental na redução da propagação de patógenos,
+            salvaguardando comunidades e promovendo um mundo mais saudável.</p>
+            <h4>Veja Alguns exemplos:</h4>
+            <div class="topoDoencasTCards">
+                <div class="topoDoencasTCard">
+                    <img id="imgx" src="../assets/covid1.webp" alt="">
+                    <div>
+                        <h2 id="titulo">Coronavírus (Covid-19)</h2>
+                        <p id="paragrafo">A COVID-19 é uma doença respiratória causada pelo vírus SARS-CoV-2. <br> Caracteriza-se por sintomas como febre, tosse e
+                        dificuldade respiratória, tendo impactado globalmente <br> a saúde pública desde seu surgimento em 2019.</p>
+                    </div>
+                </div>
+
+                
+                <div class="topoDoencasTCardSintomas">
+                    <h2 style="border-bottom: 2px solid black;" >Sintomas :</h2>
+                    <div class="topoTodosDoencasTCardSintomas">
+                        <div class="topoDoencasTMiniCardSintomas">
+                            <h5 id="tSint1">Febre</h5>
+                            <p id="pSint1">Na COVID-19, a febre é um sintoma comum que reflete a resposta do corpo ao vírus, aumentando a temperatura para combater
+                            a infecção e estimular o sistema imunológico.</p>
+                        </div>
+
+                        <div class="topoDoencasTMiniCardSintomas">
+                            <h5 id="tSint2">Dor de garganta</h5>
+                            <p id="pSint2">A dor de garganta na COVID-19 pode ocorrer como sintoma inicial, manifestando-se como desconforto, irritação ou dor ao
+                            engolir, sendo um dos indícios iniciais da infecção viral.</p>
+                        </div>
+
+                        <div class="topoDoencasTMiniCardSintomas">
+                            <h5 id="tSint3">Tosse</h5>
+                            <p id="pSint3">A tosse é um sintoma comum da COVID-19, podendo variar de leve a grave. Pode ser seca ou produtiva, contribuindo para a
+                            disseminação do vírus, sendo essencial monitorar e procurar orientação médica quando necessário.</p>
+                        </div>
+
+                        <div class="topoDoencasTMiniCardSintomas">
+                            <h5 id="tSint4" style="text-align: center;">Perde de olfato e paladar</h5>
+                            <p id="pSint4">A perda do olfato e do paladar são sintomas distintivos da COVID-19. A anosmia (perda de olfato) e a ageusia (perda do
+                            paladar) podem ocorrer isoladamente ou em conjunto, sendo indicativos significativos da infecção pelo vírus.</p>
+                        </div>
+                    </div>
+
+                    <h2 style="border-bottom: 2px solid black;" >Formas de prevencao e tratamento :</h2>
+                    <p id="prevencao"><strong>Prevenção: </strong> A prevenção da COVID-19 envolve medidas como vacinação completa, higiene das mãos com água e sabão, uso de máscaras em
+                    locais públicos, distanciamento social de pelo menos 1 metro, limpeza regular de superfícies, evitar aglomerações,
+                    permanecer em casa quando doente e manter ambientes bem ventilados. Fique atualizado com as orientações locais de saúde.</p>
+
+                    <p id="tratamento"><strong>Tratamento: </strong> O tratamento da COVID-19 varia de acordo com a gravidade dos sintomas. Casos leves podem ser gerenciados com isolamento
+                    domiciliar, repouso e hidratação. Em situações mais graves, podem ser prescritos antivirais, corticosteroides, suporte
+                    respiratório e, em alguns casos, transfusão de plasma convalescente. A abordagem terapêutica é determinada por
+                    profissionais de saúde, adaptada às necessidades individuais de cada paciente. A prevenção, incluindo a vacinação,
+                    continua sendo fundamental.</p>
+                    <button class="btnMudaDoencaT" onclick="trocar()">Ver outra doenca</button>
+                </div>        
+            </div>
+        </section>
+
+        <div class="topoCombateDoencas2">
+            <h1>Como nossa ideia resolverá o problema</h1>
+            <ul>
+                <li>
+                    <p><b>Integração: </b> Sistema totalmente integrado e trabalhando junto com clínicas e hospitais para
+                        facilitar a
+                        marcação de consultas, exames ou serviços de emergência.</p>
+                </li>
+                <li>
+                    <p><b>Educação: </b>Serão fornecidos, dentro do aplicativo, conteúdos educativos para conscientização sobre
+                        práticas de higiene e segurança da água. Fornecendo informações sobre o tratamento, medidas de prevenção
+                        e sintomas de doenças transmitidas pela água.</p>
+                </li>
+                <li>
+                    <p><b>VR: </b>Utilizaremos tambem tecnologia de realidade virtual para treinar profissionais de saúde na
+                        resposta a surtos de doenças transmissíveis. Isso proporciona simulações realistas que ajudam a
+                        desenvolver habilidades críticas de maneira segura e eficaz.
+                </li>
+            </ul>
+            <div class="proposta2">
+                <img src="../assets/Interação Helô.png" alt="">
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>2023 Desenvolvido por Cauã, Daniel, Raphael Machado e Raphael Razori| Projeto fictício sem fins comerciais.</p>
+    </footer>
+</body>
+
+</html>

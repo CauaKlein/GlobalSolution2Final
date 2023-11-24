@@ -1,0 +1,165 @@
+.melhoriaSaudeCard{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    gap: 1.5em;
+    border-radius: 360px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.melhoriaSaudeCard img{
+    border-radius: 360px 0 0 360px;
+
+}
+
+.melhoriaSaudeCard p{
+    padding-right: 3em;
+}
+
+.melhoriaSaudeCard2 {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 2px solid black;
+    gap: 1.5em;
+    border-radius: 360px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.melhoriaSaudeCard2 img {
+    width: 50%;
+    border-radius: 0 360px 360px 0;
+
+}
+
+.melhoriaSaudeCard2 p {
+    padding-left: 3em;
+}
+
+.topoCombateDoencas {
+    margin-top: 5em;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 127, 2);
+    width: 100%;
+    color: whitesmoke;
+}
+
+.topoCombateDoencas h1 {
+    border-bottom: 2px solid whitesmoke;
+    margin: 2em 0 2em 0;
+    font-size: 25px;
+    padding: 0.5em;
+    font-size: 35px;
+}
+
+.topoCombateDoencas li {
+    list-style-type: none;
+}
+
+
+.topoCombateDoencas p {
+    margin: 3em 1em 3em 1em;
+    font-size: 22px;
+    border: 2px solid #f1f1f1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.proposta {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.proposta img {
+    width: 100%;
+}
+
+.proposta {
+    background: linear-gradient(to right, rgb(242, 127, 2) 50%, rgb(50, 108, 235) 50%);
+}
+
+.melhoriaSaudeCard3 img {
+    width: 45%;
+}
+
+.melhoriaSaudeCard4 img{
+    width: 40%;
+}
+
+@media screen and (max-width:600px){
+
+.topoDoencasT{
+    text-align: center;
+}
+
+.melhoriaSaudeCard{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.melhoriaSaudeCard p {
+    font-size: 18px;
+    padding: 3em;
+}
+
+.melhoriaSaudeCard img{
+    border-radius: 200px 200px 0 0;
+    width: 100%;
+    height: 150%;
+}
+
+.melhoriaSaudeCard2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.melhoriaSaudeCard2 p {
+    font-size: 18px;
+    padding: 3em;
+}
+
+.melhoriaSaudeCard2 img {
+    border-radius: 200px 200px 0 0;
+    width: 100%;
+    height: 150%;
+}
+
+.melhoriaSaudeCard3 img{
+    width: 100%;
+}
+
+.topoCombateDoencas h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+.topoCombateDoencas p {
+    padding: 2em;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.proposta {
+    width: 100%;
+}
+
+.proposta img {
+    width: 105%;
+}
+}

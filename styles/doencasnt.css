@@ -1,0 +1,107 @@
+.tratamentoECuidado{
+    display: flex;
+    gap: 1em;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    gap: 1em;
+    height: 400px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box p{
+    width: 400px;
+}
+
+.topoCombateDoencas3 {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    color: rgb(53, 34, 40);
+}
+
+.topoCombateDoencas3 h1 {
+    border-bottom: 2px solid rgb(53, 34, 40);
+    margin: 2em 0 2em 0;
+    font-size: 35px;
+}
+
+.topoCombateDoencas3 li {
+    list-style-type: none;
+}
+
+
+.topoCombateDoencas3 p {
+    margin: 3em 1em 3em 1em;
+    font-size: 22px;
+    border: 2px solid rgb(53, 34, 40);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.proposta3 {
+    width: 65%;
+}
+
+.proposta3 img {
+    width: 100%;
+}
+
+@media screen and (max-width:600px){
+
+.tratamentoECuidado{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    width: 350px;
+    text-align: center;
+}
+
+.box h2{
+    margin-top: 1.5em;
+}
+
+.box p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0.5em;
+    width: 350px;
+    height: 400px;
+}
+
+.topoCombateDoencas3 h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 35px;
+}
+
+.topoCombateDoencas3 p {
+    padding: 2em;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.proposta3 {
+    width: 100%;
+}
+}

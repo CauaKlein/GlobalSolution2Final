@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Yrsa:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navBar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 5px 5px 10px #8888889f
+}
+
+.navBar img{
+    width: 185px;
+    height: 100%;
+    padding: 0.5em;
+}
+
+.navBarList{
+    list-style: none;
+    display: flex;
+    gap: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 2em;
+    
+}
+
+.navBarList a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.navBarList a:hover{
+    font-weight: 500;
+}
+
+.mainTopo{
+    margin: 8em 5em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mainTopo img{
+    margin-right: 6em;
+    width: 33%;
+}
+
+.mainTopoTexts{
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.mainTopoTexts h1 {
+    font-size: 75px;
+    font-weight: 500;
+}
+
+.mainTopoTextsName{
+    color: rgb(34, 91, 214);
+}
+
+.mainTopoTexts p {
+    font-size: 35px;
+}
+
+.mainTopo a{
+    margin: 1em 10em;
+    padding: 0.5em;
+    background-color: rgb(34, 91, 214);
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.mainTopo a:hover{
+    background-color: rgb(25, 65, 151);
+}
+
+.mainCartoes{
+    padding: 6em;
+    background-color: rgb(241, 241, 241);
+}
+
+.mainCartoes h2{
+    font-size: 33px;
+    margin-bottom: 1em;
+}
+
+.mainCartoesConteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.mainCartoesItens{
+    display: flex;
+    gap: 1em;
+}
+
+.mainCartoesItens img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+
+}
+
+.cartao{
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 12px;
+    width: 400px;
+    height: 100%px;
+    background-color: white;
+}
+
+.cartaoTexts{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    font-size: 17px;
+    
+}
+
+.cartaoTexts a{
+    background-color: rgb(34, 91, 214);
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    font-weight: 600;
+}
+
+.cartaoTexts a:hover{
+    background-color: rgb(25, 65, 151);
+}
+
+.mainTecnologias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: rgba(0, 99, 175);
+    padding: 1.5em 0;
+}
+
+.mainTecnologias h2{
+    color: white;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0.5em;
+}
+
+.mainTecnologias p{
+    color: white;
+    font-size: 20px;
+}
+
+.mainTecnologiasCartoes{
+    display: flex;
+    gap: 1em;
+}
+
+.mainTecnologiasCartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 1em;
+    width: 250px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    height: 280px;
+    padding: 1em;
+}
+
+.mainTecnologiasCartao h5{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.mainTecnologiasCartao p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.mainTecnologiasCartao img{
+    width: 27%;
+
+}
+
+.mainNossaEquipe {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4em;
+    padding: 2em 0;
+}
+
+.mainNossaEquipe h3 {
+    font-weight: 700;
+    margin: 1em 0;
+    font-size: 40px;
+}
+
+.mainNossaEquipeDivCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 400px;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.048);
+    border: 1px solid black;
+}
+
+.x_fora {
+    cursor: pointer;
+    width: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-top: 3em
+}
+
+.img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 360px;
+    border: 5px solid black;
+}
+
+.imgFora {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    border-radius: 360px;
+    border: 5px solid black;
+}
+
+.fundoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin: 0;
+    overflow: hidden;
+}
+
+.dados {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 2em;
+    gap: 3em;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.texto {
+    display: block;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.mainVideoPitch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+    
+}
+
+.mainVideoPitch iframe {
+    max-width: 700px;
+    max-height: 400px;
+    width: 100%;
+    border-radius: 25px;
+    }
+
+.mainVideoPitchTexts{
+    width: 800px;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.mainVideoPitch h4{
+    font-size: 55px;
+    color: rgb(34, 91, 214);
+}
+
+.mainVideoPitch h6{
+    color: rgb(204, 137, 12);
+}
+
+.mainVideoPitchTexts p{
+    font-size: 20px;
+}
+
+.mainVideoPitchTexts a{
+    background-color: rgb(34, 91, 214);
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: 600;
+}
+
+
+.mainVideoPitchTexts a:hover {
+    background-color: rgb(25, 65, 151);
+}
+
+.mainFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    background-color: rgb(255, 255, 255);
+}
+
+.mainFormulario h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.mainFormulario form{
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 25px;
+    padding: 1em;
+    margin: 0 10em;
+}
+
+.mainFormularioItens{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainFormularioItens input{
+    border: 2px solid rgb(201, 201, 201);
+    padding: 1em;
+    border-radius: 7px;
+
+}
+
+.mainFormularioItens textarea{
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 7px;
+}
+
+.mainFormulario button{
+    border: none;
+    padding: 1em 5em;
+    background-color: rgb(34, 91, 214);
+    color: white;
+    border-radius: 12px;
+    margin-top: 1em;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.mainFormulario button:hover{
+    background-color: rgb(25, 65, 151);
+}
+
+footer{
+    color: white;
+    background-color: #333;
+    padding: 2em;
+    text-align: center;
+}
+
+.fimDaPag h1{
+    font-size: 35px;
+    border-bottom: 2px solid black;
+    padding: 0.5em;
+}
+
+
+@media screen and (max-width:1763px){
+
+html,body {
+    overflow-x: hidden
+}
+
+.navBar img{
+    display: none;
+}
+
+
+.navBarList{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.mainTopo{
+    display: flex;
+    justify-content: center;
+}
+
+.mainTopo img{
+    display: none;
+}
+
+.mainCartoesItens{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainTecnologiasCartoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mainTecnologias p{
+    text-align: center;
+}
+
+.mainNossaEquipeDivCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width:600px) {
+
+.navBar{
+    margin: 0 auto;
+}
+
+.some{
+    display: none;
+}
+
+.navBar img{
+    display: none;
+}
+
+.navBarList{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navBarList a {
+    font-size: 11px;
+}
+
+.mainTopo{
+    margin: 6em 0;
+}
+
+.mainTopo a{
+    margin: 1em 0;
+}
+
+.mainTopoTexts{
+    margin: 0 auto;
+    width: 350px;
+    font-size: 20px;
+}
+
+.mainTopoTexts h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.mainTopoTexts p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.mainTopoTexts a {
+    width: 100%;
+}
+
+.mainTopo img{
+    display: none;
+}
+
+.mainCartoes{
+    padding: 0 0 1em 0;
+}
+
+.mainCartoesConteudo h2{
+    text-align: center;
+}
+
+.mainCartoesItens{
+    flex-direction: column;
+}
+
+.cartao{
+    width: 350px;
+}
+
+.mainTecnologias h2{
+    text-align: center;
+}
+
+.mainTecnologias p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.mainTecnologiasCartoes{
+    flex-direction: column;
+}
+
+.mainTecnologiasCartoes h5{
+    font-size: 17px;
+}
+
+.mainNossaEquipe h3{
+    padding: 0.1em 0;
+}
+
+.mainNossaEquipeDivCards{
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+
+.mainVideoPitch{
+    flex-direction: column-reverse;
+}
+
+.mainVideoPitchTexts{
+    width: 250px;
+}
+
+.mainVideoPitchTexts h4,h6{
+    font-size: 40px;
+    text-align: center;
+}
+
+.mainVideoPitch iframe{
+    display: none;
+}
+
+.mainFormulario form{
+    margin: 0;
+    width: 100%;
+}
+
+form button{
+    width: 100%;
+}
+
+.x_fora{
+    margin-top: 5.5em;
+}
+
+
+}

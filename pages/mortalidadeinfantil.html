@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/mortalidadeinfantil.css">
+    <link rel="shortcut icon" href="../assets/App-Icon.ico" type="image/x-icon">
+    <script src="../scripts/scriptAddCausaMortalidade.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../scripts/chartsjs.js" defer></script>
+    <title>HapViva: Mortalidade Infantil</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <img src="../assets/logo.png" alt="">
+            <ul class="navBarList">
+                <li><a href="../index.html">Home</a></li>
+                <li><a style="border-bottom: 2px solid black;" href="mortalidadeinfantil.html">Mortalidade Infantil</a></li>
+                <li><a href="doencat.html">Doenças transmissíveis</a></li>
+                <li><a href="doencant.html">Doenças não transmissíveis</a></li>
+                <li><a href="melhoriasaude.html">Melhoria Geral da Saúde</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="topoMortalidadeInfantil">
+            <div class="topoMortalidadeInfantilTitle">
+                <h1>Redução da mortalidade Infantil</h1>
+                <p>A mortalidade infantil é uma medida crucial da saúde de uma população, representando o número de crianças que morrem
+                antes de completar um ano a cada mil nascidos vivos. Essa taxa reflete as condições de saúde, acesso a cuidados médicos,
+                nutrição e fatores socioeconômicos. Uma diminuição na mortalidade infantil é um indicador positivo, indicando melhorias
+                nas condições de vida e nos cuidados maternos e neonatais. Esforços globais visam reduzir essa taxa, promovendo uma
+                saúde mais robusta para mães e recém-nascidos.</p>
+                <h4>Causas da mortalidade infantil:</h4>
+            </div>
+
+            <div class="topoMortalidadeInfantilCont">
+                <p>
+                    As causas da mortalidade infantil são multifatoriais, envolvendo questões socioeconômicas, acesso limitado a serviços de
+                    saúde, falta de saneamento básico e desnutrição. A combinação desses elementos cria um cenário propício para doenças
+                    infecciosas e complicações durante o nascimento, destacando a necessidade urgente de intervenções integradas para
+                    garantir a saúde e bem-estar das crianças.
+                </p>
+
+                <div class="topoMortalidadeInfantilList">
+                    <h3>Veja mais algumas causas:</h3>
+                    <ol class="topoMortalidadeInfantilListItens">
+                        <li>Complicações durante o parto</li>
+                    </ol>
+                    <button class="topoMortalidadeInfantilListButton">Ver outra causa</button>
+                </div>
+            </div>
+        
+            <div class="topoMortalidadeInfantilGraphTitle">
+                <h2 style="font-size: 30px; margin-bottom: 0.5em; border-bottom: 2px solid black; display: inline;" >Veja alguns dados:</h2>
+                <br>
+                <br>
+                <p>A mortalidade infantil no Brasil reflete disparidades sociais e econômicas, onde as condições de vida e acesso à saúde
+                variam significativamente. Embora tenha havido avanços, especialmente em áreas mais desenvolvidas, comunidades menos
+                favorecidas ainda enfrentam desafios consideráveis. A necessidade premente é garantir que todas as famílias,
+                independentemente da localização geográfica, tenham acesso a serviços de saúde de qualidade e medidas preventivas. A
+                redução efetiva da mortalidade infantil exige um comprometimento contínuo com políticas públicas que abordem as raízes
+                das desigualdades e promovam um ambiente propício ao bem-estar das crianças em todo o país.</p>
+                <br>
+                <p style="font-weight: 500;">Taxa de mortalidade infantil (menores de um ano de idade) <br> Brasil e Grandes Regiões,2019 (para cada mil nascidos vivos)</p>
+            </div>
+            <div class="topoMortalidadeInfantilGraph">
+                
+                <div class="graficoPai">
+                    <canvas id="grafico"></canvas>
+                </div>
+                <button class="topoMortalidadeInfantilGraphBtn">Expandir Gráfico</button>
+                
+            </div>
+        </section>
+            <div class="topoCombateDoencas">
+                <h1>Como nossa ideia resolverá o problema</h1>
+                <ul>
+                    <li>
+                        <p><b>Helô: </b>Nossa assistente virtual Helô, fornecerá ao usuário precisas avaliações sobre qualquer tipo
+                            de sintoma, tambem orientando o responsável pela criança que esteja com sintomas.</p>
+                    </li>
+                    <li>
+                        <p><b>Monitoramento: </b>Dispositivos de monitoramento biométrico acessíveis e portáteis fazem parte da
+                            solução. Esses dispositivos podem coletar dados biométricos em tempo real, como temperatura corporal,
+                            pressão arterial, frequência cardíaca e outros indicadores relevantes para a saúde.</p>
+                    </li>
+                    <li>
+                        <p><b>Eficacia em Emergencias: </b> Acione autoridades com apenas um comando de voz. Nessas situações a Helô
+                            ficará responsável por comunicar todos os agentes necessários e sua rede de emergência.</p>
+                    </li>
+                </ul>
+                <div class="proposta">
+                    <img class="propostaImg" src="../assets/Ambulância.png" alt="">
+                </div>
+            </div>
+    </main>
+
+    <footer>
+        <p>2023 Desenvolvido por Cauã, Daniel, Raphael Machado e Raphael Razori| Projeto fictício sem fins comerciais.</p>
+    </footer>
+</body>
+
+</html>

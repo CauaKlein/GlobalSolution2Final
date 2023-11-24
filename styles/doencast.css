@@ -1,0 +1,233 @@
+.topoDoencasT{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6em;
+    gap: 1em;
+}
+
+.topoDoencasT h1{
+    border-bottom: 2px solid black;
+    padding: 0.5em;
+    font-size: 38px;
+}
+
+.topoDoencasT p{
+    text-align: center;
+    font-size: 20px;
+    width: 950px;
+}
+
+.topoDoencasT h4 {
+    font-size: 25px;
+}
+
+.topoTodosDoencasTCardSintomas{
+    display: flex;
+    gap: 1em;
+}
+
+.topoDoencasTCard{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.topoDoencasTCard{
+    border: 1px solid black;
+}
+
+.topoDoencasTCard img{
+    border-radius: 8px 0 0 8px;
+    width: 350px
+}
+
+.topoDoencasTCard p{
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.topoDoencasTCard div{
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topoDoencasTCardSintomas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.topoDoencasTCardSintomas h2{
+    margin: 1em 0;
+    font-size: 35px;
+}
+
+.topoDoencasTMiniCardSintomas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    gap: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.topoDoencasTMiniCardSintomas h5{
+    padding-top: 1em;
+    font-size: 25px;
+
+}
+
+.topoDoencasTMiniCardSintomas p{
+    padding: 1em;
+    width: 300px;
+    font-size: 15px;
+}
+
+.btnMudaDoencaT {
+    background-color: rgb(34, 91, 214);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 1em;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnMudaDoencaT:hover{
+    background-color: rgb(25, 65, 151);
+}
+
+.topoCombateDoencas2 {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topoCombateDoencas2 p{
+    margin-top: 1em;
+}
+
+.topoCombateDoencas2 {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 127, 2);
+    width: 100%;
+    color: #f1f1f1;
+    list-style: none;
+}
+
+.topoCombateDoencas2 h1 {
+    border-bottom: 2px solid whitesmoke;
+    margin: 2em 0 2em 0;
+    font-size: 35px;
+    padding: 0.5em;
+}
+
+
+.topoCombateDoencas2 p {
+    margin: 3em 1em 3em 1em;
+    font-size: 22px;
+    border: 2px solid #f1f1f1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    padding: 1em;
+    text-align: center;
+}
+
+.proposta2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.proposta2 img {
+    width: 65%;
+}
+
+@media screen and (max-width:600px){
+
+.topoDoencasT h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.topoDoencasT p{
+    width: 300px;
+
+}
+.topoDoencasT h4{
+    text-align: center;
+}
+
+.topoDoencasTCardSintomas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.topoDoencasTCard{
+    text-align: center;
+    padding: 1em;
+    width: 340px;
+}
+
+.topoDoencasTCard p {
+    text-align: center;
+}
+
+.topoDoencasTCard img{
+    display: none;
+}
+
+.topoDoencasTCard div{
+    display: flex;
+    flex-direction: column;
+}
+
+.topoTodosDoencasTCardSintomas{
+    flex-direction: column;
+}
+
+.topoCombateDoencas2 h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+.topoCombateDoencas2 p {
+    padding: 2em;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.proposta2 {
+    width: 100%;
+}
+
+.proposta2 img {
+    width: 90%;
+}
+
+}
